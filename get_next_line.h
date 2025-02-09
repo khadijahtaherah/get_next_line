@@ -23,7 +23,7 @@
 # include <fcntl.h>
 
 char	*get_next_line(int fd);
-char	*ft_readed_line(char *start);
+char	*ft_extract_line(char *start);
 char	*ft_move_start(char *start);
 
 /* Helper Functions */
